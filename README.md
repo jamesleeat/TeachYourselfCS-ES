@@ -1,4 +1,4 @@
-# TeachYourselfCS-ES
+# TeachYourselfCS-ES / Enseñate Ciencias de la Computación
 
 Traduccion en Español (Latinoamerica) de la guia [TeachYourselfCS](https://teachyourselfcs.com/).
 
