@@ -1,67 +1,79 @@
-# Ensine ciência da computação a si mesmo 
+# Enseñate Ciencias Computacionales
 
-> This document is a Portuguese translation of [TeachYourselfCS](https://teachyourselfcs.com), written by [Ozan Onay](https://twitter.com/oznova_) and [Myles Byrne](https://twitter.com/quackingduck). For more information about this translation, please refer to [the end of this document](#quem-é-o-tradutor).
+> Este documento es una traduccion de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para mas informacion acerca de esta traduccion, ir a [the end of this document](#quien-es-el-traductor).
 
-> Essa versão está desatualizada
+> Esta version es una traduccion de la ultima version de la original hecha en Mayo 2020.
 
-Se você for um engenheiro autodidata ou graduado de alguma bootcamp, você deve a si mesmo aprender ciência da computação. Felizmente, você pode se dar uma educação de primeira classe sem ter que investir anos e uma pequena fortuna num diploma 💸.
+Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mismo aprender ciencias computacionales. Menos mal y te puedes otorgar una educacion en estas sin necesidad de muchos años y una fortuna en un titulo💸.
 
-Há muitos recursos por aí, mas alguns são melhores do que outros. Você não precisa de mais uma lista de “200+ cursos online gratuitos”. Você precisa de respostas para essas perguntas:
+Hay muchos recursos por alli, pero unos son mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a estas preguntas:
 
-* **Quais assuntos** você deve aprender, e por quê?
+* **Cuales temas** debes aprender, y por que?
  
-*  Qual o **melhor livro ou série de video aulas** para cada assunto?
+*  Cual es **el mejor libro o clase** para tema?
 
-Esse guia é a nossa tentativa de responder de uma vez por todas essas perguntas.
+Esta guia es nuestro intento para darle una respuesta definitiva a esas preguntas.
 
-## TL;DR: (Resumo)
+## TL;DR: (Resumelo por favor)
 
-Estude todos os assuntos abaixo, mais ou menos na ordem apresentada, usando ou o livro sugerido ou as video aulas, idealmente os dois. Tente dedicar 100-200 horas de estudo para cada um dos tópicos e revisite os seus favoritos durante a sua carreira 🚀.
+Estudia todos los siguientes temas, en mas o menos el orden presentado, usando el libro sugerido o la serie de videos, pero idealmente ambos. Trata de estudiar 100-200 horas en cada tema, luego repasa tus favoritos a lo largo de tu carrera 🚀. 
 
 
 
-| Assunto                                           | Por que estudar?                                                                                                                                | Melhor livro                                               | Melhores videos                       |
+| Tema                                           | Por que estudiarlo ?                                                                                                                                | Libro                                               |Videos                       |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------|
-| **[Programação](#programação)**                   | Não seja a pessoa que nunca “nunca entendeu de verdade” algo como recursão.                                                                 | _Structure and Interpretation of Computer Programs_     | Brian Harvey Berkeley CS 61A    |
-| **[Arquitetura de Computadores](#arquitetura-de-computadores)**  | Se você não tiver um modelo mental sólido de como um computador realmente funciona, todas as suas abstrações de alto nível serão frágeis.           | _Organização e projeto de computadores: a Interface Hardware/software_                      | Berkeley CS 61C                   |
-| **[Algoritmos e Estrutura de Dados](#algoritmos-e-estrutura-de-dados)**| Se você não entender como usar as estrutura de dados mais essenciais como pilhas, filas, árvores, e grafos, você não vai conseguir resolver problemas complexos. | _The Algorithm Design Manual_                           | aulas do Steven Skiena          |
-| **[Matemática para CC](#matemática-para-ciência-da-computação)**                   | Ciência da computação é basicamente um ramo da matemática aplicada, então aprender matemática te dará uma vantagem competitiva.                                 | _Mathematics for Computer Science_                      | Tom Leighton MIT 6.042J         |
-| **[Sistemas Operacionais](#sistemas-operacionais)**   | A maior parte do código que você escreve é processado por um sistema operacional, então é uma boa entender como os dois interagem.                                          | _Operating Systems: Three Easy Pieces_                  | Berkeley CS 162                   |
-| **[Redes de Computadores](#redes-de-computadores)**           | A internet aparentemente é importante: descubra como ela funciona e desbloqueie todo o seu potencial                                           | _Redes de Computadores e A Internet - Uma Abordagem Top-Down_              | Stanford CS 144                   |
-| **[Bancos de Dados](#banco-de-dados)**                 | Dados são essenciais para a maioria dos programas, mas poucos entendem como bancos de dados realmente funcionam.                                 | _Readings in Database Systems_                          | Joe Hellerstein Berkeley CS 186 |
-| **[Linguagens e Compiladores](#linguagens-e-compiladores)**       | Se você entender como linguagens e compiladores funcionam, você vai melhorar sua habilidade de programar e vai aprender linguagens com mais facilidade.               | _Compiladores: Princípios, Técnicas e Ferramentas_           | Curso do Alex Aiken na Lagunita   |
-| **[Sistemas Distribuídos](#sistemas-distribuídos)** | Atualmente, a _maioria_ dos sistemas são sistemas distribuídos.                                                   | _Sistemas Distribuídos: Princípios e Paradigmas_ | MIT 6.824                         |
+| **[Programacion](#Programacion)**                   | No seas la persona que nunca entendio algo como la recursion.                                                                 | _Structure and Interpretation of Computer Programs_     | Brian Harvey Berkeley CS 61A    |
+| **[Arquitetura de Computadores](#arquitetura-de-computadores)**  | Si no tienes un modelo mental solido sobre como un computador funciona realmente, entonces todas tus abstracciones de alto nivel se quebraran facilmente.           | _Computer Systems: A Programmer's Perspective_                      | Berkeley CS 61C                   |
+| **[Algoritmos y Estructura de Datos](#algoritmos-y-estructura-de-datos)**| Si no sabes como usar estructuras de datos ubicuas como las pilas, colas, arboles, y grafos, no seras capaz de resolver problemas desafiantes. | _The Algorithm Design Manual_                           | Clases de Steven Skiena          |
+| **[Matemática para Ciencias Computacionales](#matemática-para-Ciencias-Computacionales)**                   | Las ciencias computacionales son basicamente una rama de las maetmaticas aplicadas, asi que aprender matematicas te dara una ventaja competitiva.                                 | _Mathematics for Computer Science_                      | Tom Leighton MIT 6.042J         |
+| **[Sistemas Operativos](#sistemas-operativos)**   | La mayor parte del codigo que escribes es ejecutado por un sistema operativo, asi que deberias saber como ambos interactuan.                                          | _Operating Systems: Three Easy Pieces_                  | Berkeley CS 162                   |
+| **[Redes de Computadores](#redes-de-computadores)**           | El internet resulto ser una gran cuestion. Entiende como funciona para desbloquear todo su potencial                                           | _Computer Networking: A Top-Down Approach_              | Stanford CS 144                   |
+| **[Base de Datos](#base-de-datos)**                 | Los datos son el centro de los programas mas importantes, pero muy pocos entienden como funcionan realmente los sistemas de bases de datos.                                 | _Readings in Database Systems_                          | Joe Hellerstein Berkeley CS 186 |
+| **[Lenguajes y Compiladores](#lenguajes-y-compiladores)**       | Si entiendes como funcionan los lenguajes y los compiladores, entonces seras capaz de escribir mejor codigo y aprender nuevos lenguajes mas facilmente.               | _Crafting Interpreters_           | Curso de  Alex Aiken en edX   |
+| **[Sistemas Distribuidos](#sistemas-distribuidos)** | Hoy en dia, la mayoria de los sistemas son sistemas distribuidos.                                                   | _Designing Data-Intensive Applications by Martin Kleppmann_ | MIT 6.824                         |
                      
+## Te parece demasiado?
 
-## Por que aprender ciência da computação?
+Si la idea de aprender 9 temas a lo largo de varios años te parece abrumadora, te sugerimos enfocarte en dos libros: Computer Systems: A Programmer's Perspective y Designing Data-Intensive Applications. En nuestra experiencia, estos dos libros proveen la mayor utilidad por tiempo invertido, especialmente para aquellos ingenieros autodidactas y graduados de bootcamps que trabajan en aplicaciones en red. Tambien pueden servir como un "delicioso abrebocas" para otros temas y recursos listados.
 
-Existem dois tipos de engenheiro de software: Os que entendem ciencia da computacao bem o suficiente para conseguir realizar tarefas desafiadoras e inovadoras, e aqueles que estão familiarizados com as ferramentas e conseguem fazer o suficiente.
+## Por que aprender Ciencias Computacionales?
 
-Os dois dizem ser engenheiros de software, e os dois começam com salários parecidos no início das carreiras. Mas os engenheiros do tipo 1 crescem e acabam trabalhando em projetos mais gratificantes e bem remunerados, seja em trabalhos comerciais ou em projetos de open-source inovadores, na liderança técnica ou na maior qualidade nas contribuições individuais.
+Existen 2 tipos de ingenieros de software: Aquellos que entienden  bien las ciencias computacionales para trabajar en cosas desafiantes e innovativas, y aquellos que se las arreglan solo porque conocen una que otra herramienta de alto nivel.
 
-> O sistema global de SMS produz em média 20 bilhões de mensagens por dia. Whatsapp faz 42 bilhões. Com 57 engenheiros. [pic.twitter.com/zZrtSIzhlR](https://t.co/zZrtSIzhlR)
+Ambos se autodenominan como ingenieros de software, y ambos tienden a ganar salarios similares cuando comienzan sus carreras. Pero los ingenieros de Tipo 1 progresan a trabajo satisfactorio y bien remunerado a travez del tiempo, ya sea en trabajo commercialmente valioso o en proyectos innovadores de codigo abierto, liderazgo tecnico o contribuciones individuales de alta calidad.
 
-> — Benedict Evans (@BenedictEvans) [2 de Fervereiro, 2016](https://twitter.com/BenedictEvans/status/694342874729545729)
+> El sistema global de SMS maneja 20 billones de mensajes al dia. WhatsApp maneja 42 billones. Con 57 ingenieros. [pic.twitter.com/zZrtSIzhlR](https://t.co/zZrtSIzhlR)
 
-Engenheiros tipo 1 acham novas maneiras de aprender informática a fundo, seja por meios convencionais ou através do incessante apredizado ao longo de suas carreiras. Engenheiros tipo 2 geralmente ficam no superfície, estudando ferramentas e tecnologias específicas ao invés de fortalecer o seu conhecimento fundamental, apenas melhorando suas habilidades quando novas tecnologias surgem no mercado.
+> — Benedict Evans (@BenedictEvans) [2 de Febrero, 2016](https://twitter.com/BenedictEvans/status/694342874729545729)
 
-No momento, o número de pessoas entrando na indústria cresce rapidamente, enquanto o número de graduandos de ciência da computação é essencialmente estático. Esse superabastecimento de engenheiros do segundo tipo está começando a reduzir suas oportunidades de emprego, e os deixando de fora dos trabalhos e serviços mais gratificantes da indústria.
 
-> KKKKK a mas eles estavam….[pic.twitter.com/XVNYlXAHar](https://t.co/XVNYlXAHar)
+Los ingenieros de Tipo 1 encuentran formas de aprender ciencias computacionales a profundidad, ya sea mediante medios convencionales o aprendiendo implacablemente a lo largo de sus carreras. Los ingenieros de Tipo 2 tipicamente se quedan en la superficie, aprendiendo herramientas y tecnologias en vez de sus fundamentos subyacientes, adquiriendo nuevas habilidades solo cuando los vientos de la moda tecnologica cambian.
+
+Actualmente, el numero de personas entrando en la industria esta creciendo rapidamente, mientras el numero de profesionales en las ciencias computacionales se ha mantenido estatico. La oferta excesiva de ingenieros de Tipo 2 esta empezando a reducir sus oportunidades de empleo y los mantiene fuera de los trabajos mas satisfactorios de la industria. Ya sea que te estes esforzando por ser un ingeniero de Tipo 1 o simplemente quieras mayor seguridad laboral, aprender ciencias computacionales es el unico camino confiable.
+
+> Lol oh pero lo estaban….[pic.twitter.com/XVNYlXAHar](https://t.co/XVNYlXAHar)
 
 >
 
-> — Jenna Bilotta (@jenna) [4 de Março, 2017](https://twitter.com/jenna/status/838161631662092289)
+> — Jenna Bilotta (@jenna) [4 de Marzo, 2017](https://twitter.com/jenna/status/838161631662092289)
 
-## Guia dos assuntos
+## Guia de Temas
 
-### Programação
+### Programacion
 
-A maioria dos cursos universitários de ciência da computação começam com uma introdução a programação. Os melhores cursos não tentam só atender as necessidades dos inexperientes, mas também os que não aprenderam conceitos benéficos e modelos de programação quando aprendendo a programar pela primeira vez.
+La mayoria de programas de ciencias computacionales comienzan con una "introduccion" a la programacion. Las mejores versiones de estos cursos no ser orientan exclusivamente a novatos, pero tambien a aquellos que se perdieron de conceptos beneficiales y modelos de programacion mientras aprendian a programmar por primera vez.
 
-Nossa recomendação padrão para esse tema é o clássico _Structure and Interpretation of Computer Programs_ (em português: Estrutura e Interpretação de Programas de Computador), que está disponivel online de graça (em inglês), tanto como [livro](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), como também numa série de [video aulas do MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). Mesmo que essas video aulas sejam ótimas, nossa sugestão é: [Brian Harvey’s SICP lectures](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (para o curso 61A na universidade Berkeley). Elas são mais refinadas e melhor direcionadas para novatos do que as do MIT. 
+Nuestra recomendacion estandar para este tema es el clasico _Structure and Interpretation of Computer Programs_, el cual esta disponible gratuitamente como un [libro](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) y un [conjunto de clases de MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). A pesar de que esas clases son buenas, nuestra recomendacion son las clases de [Brian Harvey de SICP](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (para o curso 61A na universidade Berkeley). Estas son mas refinadas y mejor orientadas a nuevos estudiantes que las de MIT.
 
-Recomendamos estudar os primeiros três capítulos do SICP, fazendo todos os exercícios. Para prática adicional, faça alguns problemas simples como os achados no [exercism](http://exercism.io) ou no [the huxley](https://www.thehuxley.com/).
+Recomendamos estudiar por lo menos los tres primeros capitulos de SICP y hacer los ejercicios. Para practica adicional, hacer algunos ejercicios de problemas de programacion como aquellos que aparecen en [exercism](http://exercism.io)
+
+Desde que esta guia fue publicada por primera vez en 2016, una de las preguntas que mas se han preguntado ha sido si recomendamos unas versiones actualizadas de el curso 61A enseñadas por John DeNero, y/o el libro correspondiente, [Composing Programs](https://composingprograms.com/), el cual "sigue la tradicion de SICP" pero usa Python. Consideramos que los recuros de DeNero tabien son buenos, y algunos estudiantes terminaran prefiriendolo, pero aun asi sugerimos SICP, Scheme, y las clases de Brian Harvey como el primer recurso para revisar.
+
+¿Por que? Porque SICP es unico en su habilidad--Al menos potencialmente-- de alterar tus creencias fundamentales sobre los computadores y la programacion. No todos experimentaran esto. Algunos odiaran el libro, otros no pasaran de las primeras paginas. Pero la potencial recompensa hace que intentarlo valga la pena.
+
+Si no disfrutas SICP,intenta _Composing Programs_. Si eso tampoco te sirve, intenta [How To Design Programs](http://www.htdp.org/). Si ninguno de estos parece recompensar tu esfuerzo, tal vez sea una señal de que debes enfocarte en otros temas por un tiempo, y revisitar la disciplina de la programacion en un año o dos.
+
+Finalmente, un punto a clarificar: Esta guia NO esta diseñada para aquellos que son nuevos en la programacion. Asumimos que eres un programador competente sin estudios en ciencias computacionales, buscando llenar vacios. El hecho de que hemos incluido una seccion sobre "programacion" es simplemente un recordatorio de que tal vez existen mas cosas que aprender. Para aquellos que nunca han programado antes, pero que les gustaria hacerlo, podrian preferir [esta guia](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
 
 Aos que acharem SICP muito dificil, recomendamos: _[How to Design Programs](http://www.htdp.org/)_. Para aqueles que acharam muito fácil: _[Concepts, Techniques, and Models of Computer Programming](https://smile.amazon.com/Concepts-Techniques-Models-Computer-Programming/dp/0262220695/)_.
 
