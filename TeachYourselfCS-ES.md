@@ -32,7 +32,7 @@ Estudia todos los siguientes temas, en mas o menos el orden presentado, usando e
 
 ## Te parece demasiado?
 
-Si la idea de aprender 9 temas a lo largo de varios años te parece abrumadora, te sugerimos enfocarte en dos libros: Computer Systems: A Programmer's Perspective y Designing Data-Intensive Applications. En nuestra experiencia, estos dos libros proveen la mayor utilidad por tiempo invertido, especialmente para aquellos ingenieros autodidactas y graduados de bootcamps que trabajan en aplicaciones en red. Tambien pueden servir como un "delicioso abrebocas" para otros temas y recursos listados.
+Si la idea de aprender 9 temas a lo largo de varios años te parece abrumadora, te sugerimos enfocarte en dos libros: _Computer Systems: A Programmer's Perspective_ y _Designing Data-Intensive Applications_. En nuestra experiencia, estos dos libros proveen la mayor utilidad por tiempo invertido, especialmente para aquellos ingenieros autodidactas y graduados de bootcamps que trabajan en aplicaciones en red. Tambien pueden servir como un "delicioso abrebocas" para otros temas y recursos listados.
 
 ## Por que aprender Ciencias de la computación?
 
@@ -71,8 +71,6 @@ Desde que esta guia fue publicada por primera vez en 2016, una de las preguntas 
 Si no disfrutas SICP,intenta _Composing Programs_. Si eso tampoco te sirve, intenta [How To Design Programs](http://www.htdp.org/). Si ninguno de estos parece recompensar tu esfuerzo, tal vez sea una señal de que debes enfocarte en otros temas por un tiempo, y revisitar la disciplina de la programacion en un año o dos.
 
 Finalmente, un punto a clarificar: Esta guia NO esta diseñada para aquellos que son nuevos en la programacion. Asumimos que eres un programador competente sin estudios en ciencias de la computación, buscando llenar vacios. El hecho de que hemos incluido una seccion sobre "programacion" es simplemente un recordatorio de que tal vez existen mas cosas que aprender. Para aquellos que nunca han programado antes, pero que les gustaria hacerlo, podrian preferir [esta guia](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
-
-Aos que acharem SICP muito dificil, recomendamos: _[How to Design Programs](http://www.htdp.org/)_. Para aqueles que acharam muito fácil: _[Concepts, Techniques, and Models of Computer Programming](https://smile.amazon.com/Concepts-Techniques-Models-Computer-Programming/dp/0262220695/)_.
 
 ### Arquitetura de Computadores
 
@@ -230,6 +228,6 @@ Soy James Archbold, un desarrollador frontend Colombiano trabajando actualmente 
 
 Todos los libros que referencie tienen links a su version gratuita online o su libro en amazon. Es posible que algunos de estos tengan traducciones oficiales o no oficiales. Mas adelante, incluire links a aquellos libros que tengan traducciones y esten disponibles en linea o en amazon.
 
-Si quieres hacer alguna recomendacion, correccion, o aclaracion, sientete libre de comunicarte conmigo o hacer un pull request con tus cambios.
+Si quieres hacer alguna recomendacion, correccion, o aclaracion, sientete libre de comunicarte conmigo o hacer un pull request con los cambios que sean necesarios.
 
 Feliz aprendizaje!
