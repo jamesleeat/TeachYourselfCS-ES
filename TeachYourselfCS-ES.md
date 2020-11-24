@@ -116,13 +116,13 @@ Para algebra lineal, sugerimos empezar con la serie de videos [Essence of linear
 
 ### Sistemas Operativos
 
-_[Operating System Concepts]_(https://www.amazon.com/dp/1118063333/) y _[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)_ son los libros "clasicos" sobre sistemas operativos. Ambos han atraido critisismos por su falta de claridad y general dificultad para los estudiantes.
+_[Operating System Concepts](https://www.amazon.com/dp/1118063333/)_ y _[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)_ son los libros "clasicos" sobre sistemas operativos. Ambos han atraido critisismos por su falta de claridad y general dificultad para los estudiantes.
 
-_Operating Systems: Three Easy Pieces_ es una buena alternativa que esta (gratuitamente disponible en linea)[http://pages.cs.wisc.edu/~remzi/OSTEP/]. Particularmente nos gusta la estructura y legibilidad del libro, y sentimos que los ejercicios valen la pena.
+_Operating Systems: Three Easy Pieces_ es una buena alternativa que esta [gratuitamente disponible en linea](http://pages.cs.wisc.edu/~remzi/OSTEP/). Particularmente nos gusta la estructura y legibilidad del libro, y sentimos que los ejercicios valen la pena.
 
 Luego, te recomendamos explorar lsa decisiones de diseño de diferentes sistemas operativos, a travez de libros del tipo "Partes Internas de {Sistem Operativo}" como _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_, _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_, y _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_. Para Linux, recomendamos el fantastico libro de Robert Love, [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468)
 
-Una gran forma de consolidar tu entendimiento de los sistemas operativos es leer el codigo de un kernel pequeño y añadir funcionalidades. Una opcion es [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), un puerto de Unix V6 a ANSI C y x86 mantenido para un curso en MIT. OSTEP tiene un apendice de (laboratorios potenciales de xv6)[http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf] llenos de grandes ideas para projectos potenciales.
+Una gran forma de consolidar tu entendimiento de los sistemas operativos es leer el codigo de un kernel pequeño y añadir funcionalidades. Una opcion es [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), un puerto de Unix V6 a ANSI C y x86 mantenido para un curso en MIT. OSTEP tiene un apendice de [laboratorios potenciales de xv6](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) llenos de grandes ideas para projectos potenciales.
 
 ### Redes de Computadores
 
