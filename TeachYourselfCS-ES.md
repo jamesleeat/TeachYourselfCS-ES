@@ -92,58 +92,31 @@ Buscando la simplicidad y la cohesion, Nand2Tetris intercambia la profunidad. Pa
 
 Una vez que te sientas comodo con el contenido de Nand2Tetris, sugerimos intentar Computer Systems: A Programmer's Perspective, o considerar [**Computer Organization and Design**](https://smile.amazon.com/Computer-Organization-Design-MIPS-Architecture/dp/0124077269/ref=sr_1_1?dchild=1&keywords=Computer+Organization+and+Design+MIPS+Edition%3A+The+Hardware%2FSoftware+Interface+%28The+Morgan+Kaufmann+Series+in+Computer+Architecture+and+Design%29+5th+Edition&qid=1606225161&sr=8-1) de Patterson y Hennessy, un excelente y clasico libro. No todas las secciones del libro son esenciales; sugerimos seguir el curso de [Berkeley CS61C](http://inst.eecs.berkeley.edu/~cs61c/sp15/) "Great Ideas in Computer Architecture" para lecturas especificas. Las notas de clase y los laboratorios estan disponible en linea, y las clases anteriores estan [en el Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
 
-_The Elements of Computing Systems_ (Os Elementos de Sistema de Computação), também conhecido como “Nand2Tetris” (do Nand para o Tetris), é um livro ambicioso, que tenta dar ao leitor um entendimento fundamental de como tudo funciona num computador. Cada capítulo gira em torno da construção de uma pequena peça do sistema, desde escrever o funcionamento de portas lógicas em HDL (hardware description language), uma CPU e um assembler, até uma aplicação do tamanho de um jogo de tetris.
+### Algoritmos y Estructura de Datos
 
-Nós recomendamos ler os primeiros seis capítulos do livro, completando os projetos associados a cada um. Você irá desenvolver um entendimento sobre a relação entre a arquitetura de uma máquina e o software que nela roda.
+Concordamos con que con decadas de sabiduria comun que estar familiarizados con algoritmos y estructuras de datos comune es unno de los aspectos mas empoderantes de una educaion en ciencias de la computacion. Este tambien es un gran lugar para entrenar la capacidad para resolver problemas, lo cual sera de gran beneficio en las otras areas de estudio.
 
-A primeira metade do livro (e todos os projetos e software necessários) estão no [site oficial Nand2Tetris](http://www.nand2tetris.org). Também está disponível como [um curso no Coursera](https://www.coursera.org/learn/build-a-computer).
+Hay cientos de libros disponibles, pero nuestro favorito es [__The Algorithm Design Manual__](The Algorithm Design Manual) por Steven Skiena. El claramente ama la resolucion algoritmica de problemas y tipicamente es exitoso enf omentar el mismo entusiasmo en sus estudiantes y lectores. En nuestra opinion, los dos textos comunmente sugeridos (CLRS y Sedgewick) tienden a ser un poco densos en pruebas para aquellos que estan aprendiendo el material principalmente para mejorar sus habilidades de resolucion de problemas.
 
-Na busca pela simplicidade e coesão, Nand2Tetris deixa de ir muito a fundo nos assuntos. Em especial, o pipelining e a hierarquia de memória são dois conceitos muito importantes na arquitetura de computadores modernos, mas os dois não aparecem muito no texto.
+Para aquellos que prefieren videos, [Skiena generosamente proporciona los suyos en linea](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp). Tambien nos gusta el curso de Tim Roughgarden, disponible [en Coursera](https://www.coursera.org/specializations/algorithms) y en [su pagina](http://timroughgarden.org/videos.html). El que prefieras el estilo de Skiena o Roughgarden sera una cuestion de preferencia personal. De hecho, hay una docena de buenas alternativas, asi que si te llegas a encontrar una que te guste, te motivamos a quedarte con ella!
 
-Quando você se sentir confortável com o conteúdo do livro, nossa próxima sugestão é o _[Organização e projeto de computadores: a Interface Hardware/software ](hhttps://www.amazon.com.br/Organiza%C3%A7%C3%A3o-Projeto-Computadores-John-Hennessy/dp/8535287930/ref=asc_df_8535287930/?tag=googleshopp00-20&linkCode=df0&hvadid=379765802390&hvpos=&hvnetw=g&hvrand=3048146368676827379&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001506&hvtargid=pla-812161947068&psc=1)_, um texto excelente. Nem todas as seções são essenciais, sugerimos o seguinte [curso da Berkeley](http://inst.eecs.berkeley.edu/~cs61c/sp15/) para leituras especificas. As anotações e video aulas estão disponiveis [no Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
+Para practicar, nuestra forma preferida es que los estudiantes resuelvan problemas en [Leetcode](https://leetcode.com/). Estos tienden a ser problemas interesantes con soluciones y discusiones incluidas. Tambien te ayudaran a evaluar tu progreso con preguntas que son comunmente usadas en entrevistas tecnicas en compañias de software mas competitivas. Sugerimos resolver alrededor de 100 problemas de leetcode al azar como parte de tus estudios.
 
-[![Elements of Computing Systems](https://teachyourselfcs.com/elements-computing-systems.jpg)](http://www.nand2tetris.org)
+Finalmente, recomendamos mucho [**How to Solve It**](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) como una guia excelente y unica a la resolucion general de problemas; es tan aplicable a las ciencias de la computacion como a las matematicas.
 
-> Hardware é a plataforma
->
-> — Mike Acton, Diretor Engenheiro na Insomniac Games
-> ([watch his CppCon talk](https://www.youtube.com/watch?v=rX0ItVEVjHc))
+### Matematicas para las Ciencias de la Computacion
 
-### Algoritmos e Estrutura de Dados
+De cierta forma, las ciencias de la computacion son una rama madura de las matematicas aplicadas. Mientras que agunos ingenieros de software intenan--En variados grados de exito--ignorarla, te motivamos a que te tomes el trabajo de estudiarla directamente. Hacerlo exitosamente te dara una enorme ventaja competativa sobre aquellos que no lo hagan.
 
-Concordamos com o senso comum de que, familiaridade com algoritmos e estrutura de dados são um dos aspectos mais empoderadores da educação de ciência da computação. Essa área também desenvolve a sua capacidade de resolver problemas, uma habilidade que vai ser útil para todas as áreas.
+El area mas relevante de las matematicas para las ciencias de la computacion es ampliamente llamada "matematicas discretas", donde "discreto" es lo opuesto de "continuo" y es vagamente una coleccion de temas interesantes de la matematica aplicada fuera del calculo. Dada la definicion vaga, no es significativo tratar de cubrir la totalidad de las "matematicas discretas". Una meta mas realista es tener un entendimiento funcional de la logica, combinatoria y probabilidad, teoria de conjuntos, teoria de grafos, y un poco de teoria de numeros relacionado con la criptografia. Algebra lineal es una area adicional que vale la pena estudiar, dada su importancia en los graficos de computadora y en machine learning.
 
-Existem centenas de livros por aí, mas o nosso favorito é o _[The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)_(Manual de Design de Algoritmos) do Steven Skiena. Ele claramente ama o que ensina, e quer muito te ajudar a entender. Uma mudança que achamos bem vinda, se comparar com os textos mais recomendados do Leiserson, Rivest & Stein, ou Sedgewick. Os dois últimos tendem a ser muito voltados a provas rigorosas para aqueles aprendendo com o objetivo de _resolver problemas_.
+Nuestro punto de partida sugerido para las matematicas discretas es el [conjunto de notas de László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). El profesor Lovász hizo un buen trabajo en hacer el contenido accesible e intuitivo, asi que este sirve como un punto de partida mejor que otros textos mas formales.
 
-Aos que preferem video aulas, [o Skiena coloca as suas online](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp). Nós também adoramos o o curso do Tim Roughgarden, disponivel na Stanford Lagunita, ou no [Coursera](https://www.coursera.org/specializations/algorithms). Se você prefere o estilo do Skiena ou do Roughgarden, é uma questão de gosto.
+Para un estudio mas avanzado, sugerimos [**Mathematics for Computer Science**](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf), las notas del tamaño de un libro del curso de MIT del mismo nombre. Los videos de ese curso estan [gratuitamente disponibles](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), y son nuestra recomendacion para videos de matematiacs discretas.
 
-Para prática, nossa abordagem preferida para estudantes resolverem problemas é o [Leetcode](https://leetcode.com). Tende ter problemas interessantes com soluções e discussões decentes. Eles também te ajudam a testar seu progresso utilizando perguntas comuns em entrevistas técnicas das empresas mais competitivas. Recomendamos resolver 100 problemas aleatório como parte do seu estudo.
+Para algebra lineal, sugerimos empezar con la serie de videos [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), seguida del [libro](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) y clases por [Gilber Strang](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
 
-E por fim, recomendamos _[A Arte de Resolver Problemas](https://www.amazon.com.br/Arte-Resolver-Problemas-G-Polya/dp/8571931364)_ como um excelente guia para resolução geral de problemas; é útil tanto para ciência da computação assim como para matemática.
-
-[![The Algorithm Design Manual](https://teachyourselfcs.com/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![Arte de Resolver Problemas](https://img.wook.pt/images/a-arte-de-resolver-problemas-g-polya/MXwxODA0MDV8MjI4OTczfDEzODM1MjMyMDAwMDA=/250x)](https://www.amazon.com.br/Arte-Resolver-Problemas-G-Polya/dp/8571931364)
-
-> Eu tenho um método que eu recomendo extensivamente - chamado pense antes de escrever
->
-> — Richard Hamming
-
-### Matemática para ciência da computação
-
-De certa forma, ciência da computação é uma ramo da matemática aplicada. Enquanto muitos engenheiros de software tentam, e de certa forma conseguem, ignorar-la, nós te encorajamos aceitá-la. Fazendo isso com sucesso, você irá ganhar uma grande vantagem competitiva sobre os que não.
-
-A área mais relevante para CC é o que é chamado de “matemática discreta”, onde “discreto” é o oposto de “contínuo”, e é uma coleção de tópicos de matemática aplicada fora do cálculo. Dada essa definição super vaga, não vale a pena estudar tudo relacionado ao tópico. Um guia mais realístico é construir um entendimento útil da lógica, combinatória e probabilidade, teoria dos conjuntos, teoria dos grafos, e um pouco de teoria dos números para criptografia. Algebra linear também é um adicional que vale a pena, dada a sua importância em computação gráfica e machine learning.
-
-Nosso ponto de partida sugerido para matemática discreta são [as anotações feitas por László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps) Professor László Lovász fez um ótimo trabalho fazendo o conteúdo acessível e intuitivo, serve como melhor ponto de partida do que textos mais formais.
-
-Para estudos mais avançados, sugerimos _[Matemática para ciência da computação](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)_, as anotações (do tamanho de um livro) para o curso do MIT de mesmo nome. As aulas também estão [disponíveis online de graça](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), e são nossas vídeo aulas recomendadas para matemática discreta.
-
-Para algebra linear, nós sugerimos começar com os videos [a essência da algebra linear](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) uma serie de video aulas incriveis e com legendas disponíveis em português. Depois disso use o [livro](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) do Gilbert Strang e a série de [video aulas](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
-
-> Se você não acredita que a matemática é simples, é só porque você não entende o quão complicada a vida é.
->
-> — John von Neumann
-
-### Sistemas Operacionais
+### Sistemas Operativos
 
 _[Operating System Concepts](https://www.amazon.com/dp/1118063333/)_ e _[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)_ são os livros “clássicos” quando se trata de sistemas operacionais. Os dois foram criticados pela sua escrita e estilo, e por ser o tipo de livro que tem 1000 páginas e tem suas edições revisadas depois de alguns anos para que você compre a nova edição.
 
