@@ -1,6 +1,6 @@
 # Enseñate Ciencias Computacionales
 
-> Este documento es una traduccion de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para mas informacion acerca de esta traduccion, ir a [the end of this document](#quien-es-el-traductor).
+> Este documento es una traduccion de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para mas informacion acerca de esta traduccion, ir al [final del documento](#quien-es-el-traductor).
 
 > Esta version es una traduccion de la ultima version de la original hecha en Mayo 2020.
 
