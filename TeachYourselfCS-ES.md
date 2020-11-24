@@ -42,7 +42,7 @@ Existen 2 tipos de ingenieros de software: Aquellos que entienden  bien las cien
 
 Ambos se autodenominan como ingenieros de software, y ambos tienden a ganar salarios similares cuando comienzan sus carreras. Pero los ingenieros de Tipo 1 progresan a trabajo satisfactorio y bien remunerado a travez del tiempo, ya sea en trabajo commercialmente valioso o en proyectos innovadores de codigo abierto, liderazgo tecnico o contribuciones individuales de alta calidad.
 
-> El sistema global de SMS maneja 20 billones de mensajes al dia. WhatsApp maneja 42 billones. Con 57 ingenieros. <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The global SMS system does around 20bn messages a day. WhatsApp is now doing 42bn. With 57 engineers. <a href="https://t.co/zZrtSIzhlR">pic.twitter.com/zZrtSIzhlR</a></p>&mdash; Benedict Evans (@benedictevans) <a href="https://twitter.com/benedictevans/status/694342874729545729?ref_src=twsrc%5Etfw">February 2, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> El sistema global de SMS maneja 20 billones de mensajes al dia. WhatsApp maneja 42 billones. Con 57 ingenieros. [pic.twitter.com/zZrtSIzhlR](https://t.co/zZrtSIzhlR)
 
 > — Benedict Evans (@BenedictEvans) [2 de Febrero, 2016](https://twitter.com/BenedictEvans/status/694342874729545729)
 
