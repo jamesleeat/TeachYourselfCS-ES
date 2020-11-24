@@ -10,7 +10,7 @@ Hay muchos recursos por alli, pero unos son mejores que otros. No necesitas otra
 
 * **Cuales temas** debes aprender, y por que?
  
-*  Cual es **el mejor libro o clase** para tema?
+*  Cual es **el mejor libro o clase** para un tema?
 
 Esta guia es nuestro intento para darle una respuesta definitiva a esas preguntas.
 
