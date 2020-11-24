@@ -118,122 +118,118 @@ Para algebra lineal, sugerimos empezar con la serie de videos [Essence of linear
 
 ### Sistemas Operativos
 
-_[Operating System Concepts](https://www.amazon.com/dp/1118063333/)_ e _[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)_ são os livros “clássicos” quando se trata de sistemas operacionais. Os dois foram criticados pela sua escrita e estilo, e por ser o tipo de livro que tem 1000 páginas e tem suas edições revisadas depois de alguns anos para que você compre a nova edição.
+_[Operating System Concepts]_(https://www.amazon.com/dp/1118063333/) y _[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)_ son los libros "clasicos" sobre sistemas operativos. Ambos han atraido critisismos por su falta de claridad y general dificultad para los estudiantes.
 
-_Operating Systems: Three Easy Pieces_ é uma boa alternativa que está disponível [online de graça](http://pages.cs.wisc.edu/~remzi/OSTEP/). Nós gostamos da estrutura do livro e achamos que os exercícios valem a pena.
+_Operating Systems: Three Easy Pieces_ es una buena alternativa que esta (gratuitamente disponible en linea)[http://pages.cs.wisc.edu/~remzi/OSTEP/]. Particularmente nos gusta la estructura y legibilidad del libro, y sentimos que los ejercicios valen la pena.
 
-Depois do OSTEP, encorajamos você a explorar as decisões de design de sistemas operacionais específicos, usando os livros do estilo “{nome do SO} internals”, como por exemplo _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_, _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_, e _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_.
+Luego, te recomendamos explorar lsa decisiones de diseño de diferentes sistemas operativos, a travez de libros del tipo "Partes Internas de {Sistem Operativo}" como _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_, _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_, y _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_. Para Linux, recomendamos el fantastico libro de Robert Love, [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468)
 
-Uma ótima maneira de consolidar o seu entendimento é ler o código fonte de um kernel pequeno e adicionar novas funcionalidades. Uma ótima escolha é [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), um porte do unix V6 para ANSI C e x86 mantido para um curso no MIT. OSTEP tem um apêndice de [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf), cheio de ideias incríveis para possíveis projetos.
+Una gran forma de consolidar tu entendimiento de los sistemas operativos es leer el codigo de un kernel pequeño y añadir funcionalidades. Una opcion es [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), un puerto de Unix V6 a ANSI C y x86 mantenido para un curso en MIT. OSTEP tiene un apendice de (laboratorios potenciales de xv6)[http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf] llenos de grandes ideas para projectos potenciales.
 
 ### Redes de Computadores
 
-Já que a maioria da desenvolvimento de software acontece nos servidores e clientes, uma das áreas mais valiosas da ciência da computação são redes de computadores. Nossos alunos autodidatas que estudam redes metodicamente sentem que eles finalmente entendem conceitos, termos e protocolos que estavam ao redor deles por anos.
+Dado que gran parte de la ingenieria de software es en servidores y clientes web, una de las areas de inmediato valor de las ciencias de la computacion es la de redes. Nuestros estudiantes autodidactas que metodicamente estudian redes encuentran que finalmente entienden conceptos, terminos, y protocolos que los habian rodeado por años.
 
-Nosso livro favorito do assunto é _[CRedes de Computadores e A Internet - Uma Abordagem Top-Down](https://www.saraiva.com.br/redes-de-computadores-e-a-internet-uma-abordagem-top-down-6-ed-2013-8223157/p)_. Os pequenos projetos e exercícios no livro valem muito a pena serem feitos, nós gostamos particularmente do “Wireshark labs”, que [eles deixam online](http://www-net.cs.umass.edu/wireshark-labs/).
+Nuestro libro favorito para este tema es _[Computer Networking: A Top Down Approach](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)_. Los pequeños proyectos y ejercicios en el libro valen mucho la pena hacer, y nos gusta particularmente los "Wireshark labs" los cuales estan [generosamente en linea](http://www-net.cs.umass.edu/wireshark-labs/).
 
-Para os que preferem video aulas, sugerimos o curso [\_Introduction to Computer Networking ](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about), disponível no MOOC lagunita.
+Para aquellos que prefieran videos, sugerimos el curso de Stanford _[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z)_ disponible previamente en la plataforma de MOOC de Stanford Lagunita, pero tristemente ahora solo se encuentra como playlists no oficiales en Youtube.
 
-O estudo de redes se beneficia mais através de grandes projetos do que através de pequenos exercícios. Alguns possíveis projetos são, por exemplo: um server HTTP, ou um chat baseado em UDP, uma [mini stack de TCP](http://jvns.ca/blog/2014/08/12/what-happens-if-you-write-a-tcp-stack-in-python/), um proxy, ou um balanceador de carga, e uma hash table distribuída.
+### Bases de datos
 
-> Você pode olhar para uma bola de cristal e ver o futuro. O que a internet vai ser no futuro vai ser definido pelo que a sociedade decidir.
->
-> — Bob Kahn
+Toma mucho mas trabajo aprender de forma autodidacta acerca de sistemas de bases de datos que la mayoria de otros temas. Es un campo de estudio (post 1970s) relativamente nuevo con incentivos fuertemente comerciales para que las ideas se queden en secreto. Adicionalmente, muchos posibles autores de textos han preferido unirse o empezar compañias.
 
-[![Computer Networking: A Top-Down Approach](http://lojasaraiva.vteximg.com.br/arquivos/ids/12105154/1009651669.jpg?v=637142233019400000)](https://www.saraiva.com.br/redes-de-computadores-e-a-internet-uma-abordagem-top-down-6-ed-2013-8223157/p)
+Debido a estas circunstancias, motivamos a los estudiantes evitar libros y empezar con las grabaciones de la clase [CS 186](https://www.youtube.com/user/CS186Berkeley/videos), el curso de Joe Hellerstein de bases de datos en Berkeley, y luego leer articulos.
 
-### Banco de Dados
+Un articulo particularmente util para nuevos estudiantes es "[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)", el cual provee un vistazo de alto nivel de como funcionan los sistemas de base de datos relacional (RDBMS). Esto servira como una base util para profundizar mas adelante.
 
-Requer mais esforço aprender sobre sistemas de banco de dados do que a maioria dos outros tópicos. É uma área de estudo ainda muito imatura, com incentivos comerciais muito fortes para manter boas ideias em segredo. E ainda, muitos possíveis autores de livros didáticos preferem se juntar a uma ou criar uma empresa.
+_Readings in Database Systems_, mejor conocido como el ["Libro Rojo" de las bases de datos](http://www.redbook.io/), es una coleccion de articulos compilados y editados por Peter Bailis, Je Hellerstein y Michael Stonebraker. Para aquellos que han progresado mas alla del nivel del contenido de CS 186, el Libro Rojo debe ser la proxima parada.
 
-Dadas a ciscunstâncias nós sugerimos autodidatas ignorarem os livros e comecar com a [CS 186](https://archive.org/details/UCBerkeley_Course_Computer_Science_186), o curso de banco de dados da Berkeley e comecar a ler artigos logo após.
+Si realmente quieres usar un libro introductorio, te recomendamos _[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)_ por Ramakrishnan y Gehrke. Para estudiantes mas avanzados, el clasico de Jim Gray _[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)_ vale la pena, pero no recomendamos usar este como primer recurso.
 
-Um artigo em especial vale a pena ser mencionado a novos estudantes, o “[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)” que unicamente dá uma visão abstrata de como sistemas de gerenciamento de banco de dados relacionais (SGBD) funcionam. Isso serve como esqueleto para futuros estudos.
+Finalmente, el modelado de datos es un aspecto descuidado y pobremente enseñado al trabajar con bases de datos. Nuestro libro recomendado en el tema es _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)_
 
-_Readings in Database Systems_ mais conhecido como [“The Red Book”](http://www.redbook.io/) é uma colecao de artigos compilados e editados por Peter Bailis, Joe Hellerstein e Michael Stonebraker. para os que já progrediram além do nível da CS 186, o Red Book deve ser a sua próxima parada.
+### Lenguajes y Compiladores
 
-Se você insiste em usar um livro introdutório, sugerimos t _[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)_ por Ramakrishnan e Gehrke. Para estudantes mais avançados o clássico _[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)_ vale a pena, mas nós não incentivamos usá-lo como primeiro recurso.
+La mayoria de los programadores aprenden lenguajes, mientras que la mayoria de los que cientificos computacionales aprenden _sobre_ lenguajes. Esto les otorga una ventaja distintiva sobre el programador, incluso en el dominio de la programacion! Su conocimiento generaliza; son capaces de entender de forma mas profunda y rapida el funcionamiento de un nuevo lenguaje que aquellos que simplemente han aprendido lenguajes especificos.
 
-É difícil consolidar os conceitos sem escrever uma quantidade considerável de código. Os alunos do CS 186 adicionaram recursos ao Spark, que é um projeto razoável, mas sugerimos escrever, do zero, um simples sistema de gerenciamento de banco de dados relacional. Não será cheio de recursos, mas será esclarecedor mesmo escrevendo a versão mais rudimentar de cada componente de um SGBD típico.
+Nuestro text introductorio recomendado es el excelente _[Crafting Interpreters](https://craftinginterpreters.com/contents.html)_ por By Nystrom, disponible gratuitamente en linea. Esta bien organizado, es altamente entretenido, y muy adecuado para aquellos cuyo objetivo principal es simplemente tener un mejor entendimiento de los lenguajes que usan y sus herramientas. Sugerimos tomar el tiempo necesario para trabajar todo el libro, intentando cualquiera de los "desafios" para sostener tu interes.
 
-Por fim, a modelagem de dados é um aspecto negligenciado e mal ensinado sobre o trabalho com bancos de dados. Nosso livro sugerido é o _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)_.
+Una recomendacion mas tradicional es _[Compilers: Principles, Techniques & Tools](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)_, comunmente conocido como "El Libro del Dragon". Desafortunadamente, no esta diseñado para un estudio autodidacta, pero para ser usado como material de temas par auno o dos semestres.
 
-### Linguagens e Compiladores
+Si decides usar el Libro del Dragon, es casi esencial que seas muy selectivo con los temas, idealmente con la ayuda de un mentor. De hecho, la forma en que sugerimos usar el Libro del Dragon, si asi lo deseas, es como una referencia suplementaria a una serie de videos. Nuestra recomendacion es la de _[Alex Aiken en edX](https://www.edx.org/course/compilers)_
 
-A maioria dos programadores aprende linguagens específicas, enquanto a maioria dos cientistas da computação aprendem _sobre_ linguagens. Isso dá ao cientista da computação uma vantagem distinta em relação ao programador, mesmo no domínio da programação! Seu conhecimento é generalizado; eles são capazes de entender o funcionamento de uma nova linguagem mais profunda e rapidamente do que os que aprendem linguagens específicas.
+### Sistemas Distribuidos
 
-O texto introdutório padrão é o _[Compiladores: Princípios, Técnicas e Ferramentas](https://www.amazon.com.br/Compiladores-princ%C3%ADpios-ferramentas-Alfred-Aho/dp/8588639246)_, comumente chamado de "o Livro do Dragão" (Dragon Book). Infelizmente, ele não foi feito para auto-estudo, mas sim para que os professores escolham conteúdo suficiente para 1-2 semestres de curso. É essencial, então, que você escolha os tópicos a dedo, ou de preferência com a ajuda de um mentor.
+A medida que los computadores han incrementado en cantidad, tambien se han _propagado_. Donde antes negocios compraban mainframes grandes y mas grandes, ahora es normal para incluso aplicaciones muy pequeñas ejecutarse a traves de multiples maquinas. Los sistemas distribuidos son el estudio de como razonar sobre los trade-offs de implementarlos.
 
-Se você optar por usar o Dragon Book para seus estudos, recomendamos seguir alguma série de video aulas para ajudar com a estruturação do aprendizado, depois ir mergulhando mais profundamente no livro conforme necessário. Nossa reocmendação de curso online é [o do Alex Aiken, disponível na plataforma MOOC da Stanford Lagunita](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about).
+Nuestro libro sugerido para estudiar es _[Designing Data-Intensive Applications](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)_. De lejos mejor que un libro tradicional, DDIA es un libro altamente legible diseñado para practicantes, el cual de alguna forma evita sacrificar profundidad o rigor.
 
-Como possivel alternativa ao Dragon Book sugerimos _[Language Implementation Patterns](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/)_ por Terence Parr. Ele é escrito mais diretamente para o engenheiro de software praticante que pretende trabalhar em pequenos projetos de linguagem como como DSLs, o que pode torná-lo mais útil para você. É claro que, para isso, ele sacrifica bastante profundidade.
+Para aquellos que busquen un texto mas tradicional, o que prefieran uno que este gratuitamente disponible en linea, sugerimos _[Distributed Systems, 3rd Edition](https://www.distributed-systems.net/index.php/books/ds3/)_
 
-Para projetos, sugerimos escrever um compilador para uma linguagem didática simples como COOL, ou para um subconjunto de uma linguagem que lhe interesse. Quem achar esse projeto muito difícil pode começar com o [Make a Lisp](https://github.com/kanaka/mal), que te ajuda em cada etapa do projeto.
+Para aquellos que prefieran videos, _[6.824 DE MIT](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)_ es un excelente curso enseñado por Robert Morris con lecturas disponibles [aqui](https://pdos.csail.mit.edu/6.824/schedule.html).
 
-[![Compiladores: Princípios, Técnicas e Ferramentas](https://lojasaraiva.vteximg.com.br/arquivos/ids/7461119/522430.jpg?v=637087093968900000)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) [![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/)
+No importa cual sea tu eleccion de libro o recursos secondarios, estudiar sistemas distribuidos requiere absolutamente leer articulos. [Esta](http://dsrg.pdos.csail.mit.edu/papers/) es una buena lista, y recomendamos mucho antender tu seccion local de [Papers We Love](http://paperswelove.org/).
 
-> Não seja um programador padrão. Construa ferramentas para usuários e outros programadores. Tome nota histórica da indústria têxtil e siderúrgica: você quer construir máquinas e ferramentas, ou quer operar essas máquinas?
->
-> — Ras Bodik no início de seu curso de compiladores
+## Preguntas Frecuentes
 
-### Sistemas Distribuídos
+### Quien es la audiencia ideal de esta guia?
 
-Os computadores têm aumentado em número, e com isso eles também têm _se espalhado_. Enquanto que antigamente empresas adquiriam mainframes cada vez maiores, hoje em dia é típico que mesmo aplicações muito pequenas rodem em várias máquinas. Sistemas distribuídos é o estudo de como raciocinar os trade-offs envolvidos com a execução disso, uma habilidade cada vez mais importante.
+Tenemos en mente que eres un ingeniero de software autodidacta, un graduado de un bootcamp, un estudiante de secundaria precoz, o un estudiante universitario buscando suplementar tu educacion formal con estudios adicionales. La pregunta de cuando embarcarse en este viaje es enteramente personal, pero la mayoria tiende a beneficiarse mas cuando ya tienen algo de experiencia profesional antes de estudiar de fondo la teoria de las ciencias de la computacion. Por ejemplo, nos dimos cuentas de que los estudiantes _les encanta_ aprender sobre sistemas de base de datos si ya han trabajado con bases de datos profesionalmente, o sobre redes de computador si han trabajado en un proyecto web o dos.
 
-Nosso livro sugerido é o _[Sistemas Distribuídos: Princípios e Paradigmas](https://www.amazon.com.br/Sistemas-distribu%C3%ADdos-princ%C3%ADpios-Andrew-Tanenbaum/dp/8576051427)_ de Maarten van Steen e Andrew Tanenbaum. A terceira edição está disponível online de graça, graças à generosidade de seus autores. Como sistemas distribuídos são um campo em constante mudança, nenhum livro didático servirá como guia definitivo, mas esse dá a melhor descrição dos assuntos mais fundamentais e consolidados que já vimos.
+### Que hay de la IA/graficos/tema-de-moda-x?
 
-Um bom curso que tem alguns vídeos online é [6.824 do MIT](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) (um curso de pós-graduação), mas infelizmente as gravações tem péssima qualidade de audio, e não está claro se as gravações foram autorizadas. _[Atualização @ Mar 2020: [os vídeos da palestra oficial do curso](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) já foram publicados!]_
+Hemos tratado de limitar nuestra lista a temas de las ciencias de la computacion que sentimos que _todo practicante de la ingenieria de software_ deberia saber, sin importar la especialidad o la industria, pero con un enfoque en los sistemas. En nuestra experiencia, estos temas tendran el mas alto ROI (Retorno de la Inversion) para la gran mayoria de ingenieros autodidactas y graduados de bootcamps, y proveeran una solida fundacion para estudios adicionales. Subsecuentemente, estaras en una mejor posicion para leer libros o articulos y aprender los conceptos centrales sin mucha ayuda. Los siguientes son algunos puntos de partida para algunas "electivas" comunes.
 
-Não importa a escolha do livro ou de outros recursos, o estudo de sistemas distribuídos _exige_ a leitura de artigos. Uma boa lista pode ser achada aqui [aqui](http://dsrg.pdos.csail.mit.edu/papers/), e te incentivamos a participar do seu [Papers We Love](http://paperswelove.org/) local.
+- Para inteligencia artificial: Has el [curso de introduccion a la AI de Berkeley](http://ai.berkeley.edu/) mirando los videos y completando los excelentes proyectos de Pacman. Usa el _Artificial Intelligence: A Modern Approach_ de Russell y Norvig.
 
-## Perguntas frequentes
+- Para machine learning: Has el curso de Andrew Ng de cursera. Se paciente, y asegurate de que entiendas los fundamentos antes de correr a los temas nuevos demoda como el deep learning.
 
-### E quanto a IA/Computação Gráfica/etc?
+- Para graficos de computadoras: Estudia el material del curso [CS 184 de Berkeley](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html), y usa [Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) como libro de referencia.
 
-Nós tentamos limitar nossa lista para tópicos que nós achamos essenciais para todos os engenheiros de software\_, independentemente da especialidade. Com essa fundação, você estará numa posição muito melhor para simplesmente usar livros e ler artigos sem precisar de algum tipo de guia. Aqui nossos pontos de partida para essas “eletivas”:
+### Que tan estricto es el orden sugerido?
 
-- Inteligencia artifical: faça [curso introdutório da Berkeley](http://ai.berkeley.edu/). Vendo os vídeos e completando os projetos excelentes de pacman. E use o livro _Artificial Intelligence: A Modern Approach_ por Russell e Norvig.
+Realisticamente, todos estos temas tienen una cantidad significativa de superposicion, y hacen referencia entre ellos ciclicamente. Toma por ejemplo la relacion entre las matematicas discretas y los algoritmos: aprender matematicas primero te ayudara a analizar y entender tus algoritmos en mayor profundidad, pero aprender algoritmos primero te dara mayor motivacion y contexto para las matematicas discretas. Idealmente, volveras a estos temas muchas veces durante tu carrera.
 
-- Para machine learning: o curso do Andrew Ng na coursera. Seja paciente, e tenha certeza que você entende os fundamental antes de ir atrás de novos conhecimentos como deep learning.
+Como tal, nuestro orden sugerido esta alli para ayudarte a _empezar_... si tienes una razon de fondo para preferir una sequencia diferente, entonces adelante. Los "prerrequisitos" mas esneciales, en nuestra opinion, son: arquitectura de computadores antes de sistemas operativos o bases de datos, y redes y sistemas operativos antes de sistemas distribuidos.
 
-- Para computação gráfica faça o [curso 184 de CC da Berkeley](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html) e use [Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) como livro.
+### Como se compara esto al curriculo del Open Source Society o freeCodeCamp?
 
-### Quão rígida é a sequência sugerida?
+Cuando esta guia fue escrita en 2016, la guia de OSS tenia demasiados temas, sugeria recursos inferiores para muchos de ellos, y no explicaba la razon o la guia de porque o que aspectos de un curso en particular son valiosos. Tratamos de limitar nuestra lista de cursos a aquellos que _realmente deberias saber_ como ingeniero de software, sin importar de tu especialidad, y de ayudarte a entender porque cada curso esta incluido. En los años siguientes, la guia de OSS ha mejorado, pero aun pensamos que esta es un camino mas claro y cohesivo.
 
-Realisticamente, todos os assuntos possui um nível significante de conhecimento compartilhado, e se auto referenciam. Por exemplo, a relação entre matemática discreta e algoritmos: Aprender matemática antes te ajudaria a analisar e entender seus algoritmos com mais profundidade, mas aprender os algoritmos servem de grande motivação e familiarização para a matemática discreta. Idealmente, você vai revisitar esses tópicos muitas vezes ao longo da sua carreira.
+freeCodeCamp esta enfocado principalmente a la programacion, no las ciencias de la computacion. Para saber porque deberias aprender ciencias de la computacion, mira arriba. Si eres totalmente nuevo en la programcion, te sugerimos priorizar su aprendizaje, y luego retornar a esta guia en un año o dos.
 
-Sendo assim, nossa sequência sugerida está aí mais para te ajudar a _começar_… se você tiver razões convincentes para escolher outra sequência, só vai. Os pré-requisitos mais significativos, na nossa opinião, são: arquitetura de computadores antes de sistemas operacionais ou banco de dados, e redes de computadores e sistemas operacionais antes de sistemas distribuídos.
+### Que hay del lenguaje X?
 
-### Quem é o público alvo deste guia?
+Aprender un lenguaje de programacion particular esta en un plano totalmente distinto a aprender acerca de un area de las ciencias de la computacion -- aprender un lenguaje es mucho _mas facil_ y _menos valioso_. Si ya sabes unos cuantos elnguajes, te sugerimos simplemente seguir nuestra guia y encajar la adquisicion de un lenguaje en los huecos o vacios, o dejarlo para despues. Si has aprendido a programar bien (Como con _Structure and Interpetation of Computer Programs_), y especialmente si has aprendido sobre compiladores, te deberia tomar poco mas que un fin de semana para aprender lo esencial de un nuevo lenguaje, para luego despues podras aprender las librerias/herramienta/ecosistema en el trabajo.
 
-Nós temos em mente que você é um engenheiro de software, graduando de bootcamp ou um estudante de ensino médio precoce, ou um universitário procurando uma educação complementar. A decisão de quando embarcar nessa jornada é inteiramente pessoal, mas a maioria das pessoas tem algum beneficio por ter alguma experiência profissional antes de se aprofundar nos tópicos de ciência da computação. Por exemplo, nós percebemos que estudantes _amam_ aprender sobre banco de dados se eles já trabalharam profissionalmente na área, ou redes de computadores se eles já trabalharam num projeto web ou dois.
+### Que hay de tecnologia de moda X?
 
-### Como isso se compara ao currículo da Open Source Society ou do freeCodeCamp?
+No hay ninguna tecnologia individual que sea lo suficientemente importante que aprender a usarla deba ser una parte central de tu educacion. Por otro lado, es bueno que te apasiona aprender acerca de ella. El truco esta en trabajar desde la tecnologia particular hacia el concepto o campo que le subyace, y aprender eso en profundidad antes de ver como tu tecnologia de moda encaja en la imagen mas grande.
 
-O [OSS guide](https://github.com/open-source-society/computer-science) tem muitos assuntos, sugerem referências inferiores para grande parte, e nao dao nenhum raciocínio ou guia sobre o por quê e quais aspectos dos cursos em particular são valiosos. Nós nos esforçamos para limitar os cursos que você _realmente_ precisa saber e para te ajudar a entender o por quê de cada curso.
+### Por que sigues recomendando SICP?
 
-freeCodeCamp foca mais na programação e não na ciência da computação. O por quê de você querer aprender ciencia da computacao veja [acima](#why).
+Mira, solo intentalo. Algunas personas encuentran SICP una experiencia alucinante, caracteristica compartida por muy pocos otros libros. Si no te gusta, puedes intentar alguna otra cosa y, tal vez, volver a SICP mas tarde.
 
-### E a linguagem X?
+### Por que sigues recomendando el libro del Dragon?
 
-Aprender uma linguagem em particular, é uma coisa totalmente diferente de aprender sobre uma área da ciência da computação - uma linguagem é muito _mais fácil_, e _menos significativo_. Se você já é proficiente em algumas linguagens, nós sugerimos seguir o guia e ir colocar o aprendizado de novas linguagens no meio, ou simplesmente deixar para depois. Se você aprendeu programação bem, e especialmente se você aprendeu sobre compiladores, você vai levar não mais de uma semana para aprender os fundamentos de uma nova linguagem.
+El libro del Dragon sigue siendo el recurso mas completo sobre compiladores. Tiene algo de mala fama, tipicamente por sobreenfatizar ciertos temas que son menos mundanos para cubrir en detalle recientemente, como el parseo. La cuestion es que el proposito del libro nunca fue ser estudiado de tapa a tapa. Su proposito es el de proporcionar el suficiente material a un instructor para poder preparar un curso. De forma similar, un autodidacta puede escoger su propia aventura a traves del libro, o mejor aun seguir las sugerencias que las clases de cursos publicos han hecho en su estructura.
 
-### E a tecnologia X que está na moda?
+### Como puedo conseguir los libros a buen precio?
 
-Nenhuma tecnologia é tão importante que aprender a usá-la deve ser parte dos fundamentos da sua educação. Por outro lado, é muito bom que você está animado para aprender essa coisa nova. O truque está em trabalhar de trás para frente da tecnologia em particular até os fundamentos e conceitos, e aprender aquilo bem antes de ver como a sua tecnologia se encaixa no panorama geral.
+Muchos de los textos sugeridos estan disponibles en linea gratuitamente, gracias a la generosidad de sus autores. Para aquellos que no lo estan, sugerimos comprar copias usadas de ediciones antiguas. Como regla general, si han habido mas de un par de ediciones de un libro, es muy probable que la edicion mas vieja sea perfectamente adecuada. Es ciertamente improbable que la nueva edicion sea 10x mejor que la anterior, incluso si la diferencia en su precio lo es!
 
-### Por que ainda estão recomendando “dragon book”?
+### Quien hizo esto?
 
-O “Dragon book” ainda é um dos melhores recursos para compiladores. Tem uma má fama, especialmente por colocar muita ênfase em certos tópicos que não são tão importantes hoje em dia. Mas o livro nao foi idealizado para ser lido por completo, mas dar material suficiente para um instrutor conseguir montar um curso. Similarmente, um autodidata pode escolher sua própria aventura com o livro, ou melhor ainda seguir sugestões de professores em seus resumos/guias de leitura.
+Esta guia fue originalmente escrita por [Oz Nova](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck), con actualizaciones en 2020 hechas por Oz. Esta basada en nuestra experiencia enseñando fundamentos de ciencias computacionales a mas de 1000 ingenieros mayormente auto educados y graduados de bootcamp en pequeños grupos en San Francisco y en linea. Gracias a todos nuestros estudiantes por su feedback continuo en recursos para el auto aprendizaje.
 
-### Como posso conseguir livros baratos?
+Estamos muy confiados en que te puedes enseñar todo lo que esta arriba, asumiendo que hay suficiente tiempo y motivacion. Pero si prefieres un programa mas intensivo, estructurado, y encabezado por un instructor, tal vez te interesen nuestro programa [Intensivo de Ciencias de la Computacion](https://bradfieldcs.com/csi/). [NO](https://ozwrites.com/masters/) sugerimos conseguir una maestria.
 
-Graças a generosidade dos seus autores, muitos dos livros que sugerimos são achados de graça online. Para os que não são, nós sugerimos comprar edições usadas. Como regra geral, se existe varias edições de um livro, é muito provável que as edições mais antigas ainda sejam perfeitamente adequadas. É muito difícil que a nova versão seja 10x melhor que as mais velhas, mesmo que a diferença de preço seja.
+### Quien es el traductor?
 
-### Quem fez isso?
+Soy James Archbold, un desarrollador frontend Colombiano trabajando actualmente en Elemento 43. Esta es una guia que decidi traducir para que las personas que son mayormente autodidactas o que quieren aprender por su cuenta tengan una mejor idea y estructura sobre como aprender estos temas.
 
-Esse guia foi escrito por [Ozan Onay](https://twitter.com/oznova_) e [Myles Byrne](https://twitter.com/quackingduck), instrutores na [Bradfield School of Computer Science](https://bradfieldcs.com) em São Francisco. É baseado na nossa experiência ensinando os fundamentos da ciência da computação para centenas de engenheiros (muitos autodidatas) ou graduados de bootcamps. Muito obrigado a todos os estudantes pelo feedback contínuo sobre meios para o aprendizado autodidata. Obrigado também a Alek Sharma, Omar Rayward, Ammar Mian and Tyler Bettilyon, pelo feedback sobre o guia.
+Todos los libros que referencie tienen links a su version gratuita online o su libro en amazon. Es posible que algunos de estos tengan traducciones oficiales o no oficiales. Mas adelante, incluire links a aquellos libros que tengan traducciones y esten disponibles en linea o en amazon.
 
-### Quem é o tradutor?
+Si quieres hacer alguna recomendacion, correccion, o aclaracion, sientete libre de comunicarte conmigo o hacer un pull request con tus cambios.
 
-Iae galera, meu nome é Clemens Schrage, eu sou estudante de ciência de computação da UFAL (Universidade Federal de Alagoas). Se vocês tiverem alguma sugestão pra ajudar na tradução, eu acharia irado, só fazer um pull. Eu realmente não sei escrever direito e isso aqui tá uma bagunça. Espero que eu tenha ajudado quem quer que esteja lendo isso, porque o texto original me ajudou bastante. Abração ae galera.
+Feliz aprendizaje!
