@@ -8,9 +8,9 @@ Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mis
 
 Hay muchos recursos por allí, pero unos son mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a estas preguntas:
 
-- **Cuales temas** debes aprender, y por que?
+- ¿**Cuales temas** debes aprender, y por que?
 
-- Cual es **el mejor libro o clase** para un tema?
+- ¿Cual es **el mejor libro o clase** para un tema?
 
 Esta guía es nuestro intento para darle una respuesta definitiva a esas preguntas.
 
@@ -216,7 +216,7 @@ El libro del Dragón sigue siendo el recurso más completo sobre compiladores. T
 
 Muchos de los textos sugeridos están disponibles en línea gratuitamente, gracias a la generosidad de sus autores. Para aquellos que no lo están, sugerimos comprar copias usadas de ediciones antiguas. Como regla general, si han habido más de un par de ediciones de un libro, es muy probable que la edición más vieja sea perfectamente adecuada. Es ciertamente improbable que la nueva edición sea 10x mejor que la anterior, incluso si la diferencia en su precio lo es!
 
-### Quién hizo esto?
+### ¿Quién hizo esto?
 
 Esta guia fue originalmente escrita por [Oz Nova](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck), con actualizaciones en 2020 hechas por Oz. Está basada en nuestra experiencia enseñando fundamentos de ciencias computacionales a más de 1000 ingenieros mayormente auto educados y graduados de bootcamp en pequeños grupos en San Francisco y en línea. Gracias a todos nuestros estudiantes por su feedback continuo en recursos para el auto aprendizaje.
 
