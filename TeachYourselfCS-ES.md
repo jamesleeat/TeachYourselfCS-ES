@@ -4,9 +4,9 @@
 
 > Esta versión es una traducción de la última versión de la original hecha en Mayo 2020.
 
-Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mismo aprender ciencias de la computación. Menos mal y te puedes otorgar una educación en estas sin necesidad de muchos años y una fortuna en un título💸.
+Si eres un ingeniero autodidacta o un graduado de un bootcamp, te mereces aprender por ti mismo ciencias de la computación. Afortunadamente puedes obtener una educación de alta calidad sin necesidad de invertir muchos años ni una fortuna en un título de Pregrado 💸.
 
-Hay muchos recursos por allí, pero unos son mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a estas preguntas:
+Existen muchos recursos en internet, pero unos definitivamente mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a las siguientes preguntas:
 
 - ¿**Cuales temas** debes aprender, y por que?
 
@@ -16,7 +16,7 @@ Esta guía es nuestro intento para darle una respuesta definitiva a esas pregunt
 
 ## TL;DR: (Resumelo por favor)
 
-Estudia todos los siguientes temas, en más o menos el orden presentado, usando el libro sugerido o la serie de videos, pero idealmente ambos. Trata de estudiar 100-200 horas en cada tema, luego repasa tus favoritos a lo largo de tu carrera 🚀.
+Estudia todos los siguientes temas, en más o menos el orden presentado, usando el libro sugerido o la serie de videos, idealmente ambos. Trata de estudiar 100-200 horas en cada tema, luego repasa tus temas preferidos a lo largo de tu carrera 🚀.
 
 | Tema                                                                                          | ¿Por qué estudiarlo ?                                                                                                                                      | Libro                                                       | Videos                          |
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------- |
