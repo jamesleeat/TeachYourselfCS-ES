@@ -110,7 +110,7 @@ El área más relevante de las matemáticas para las ciencias de la computación
 
 Nuestro punto de partida sugerido para las matemáticas discretas es el [conjunto de notas de László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). El profesor Lovász hizo un buen trabajo en hacer el contenido accesible e intuitivo, así que este sirve como un punto de partida mejor que otros textos más formales.
 
-Para un estudio más avanzado, sugerimos [**Mathematics for Computer Science**](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf), las notas del tamaño de un libro del curso de MIT del mismo nombre. Los videos de ese curso estan [gratuitamente disponibles](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), y son nuestra recomendacion para videos de matematiacs discretas.
+Para un estudio más avanzado, sugerimos [**Mathematics for Computer Science**](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf), las notas del tamaño de un libro del curso de MIT del mismo nombre. Los videos de ese curso estan [gratuitamente disponibles](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), y son nuestra recomendacion para videos de matematiacs discretas.
 
 Para algebra lineal, sugerimos empezar con la serie de videos [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), seguida del [libro](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) y clases por [Gilber Strang](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
 
