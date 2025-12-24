@@ -224,7 +224,7 @@ Estamos muy confiados en que te puedes enseñar todo lo que está arriba, asumie
 
 ### ¿Quién es el traductor?
 
-Soy [James Archbold](https://www.linkedin.com/in/james-archbold-6470b6a2/), un desarrollador frontend Colombiano trabajando actualmente en Elemento 43. Esta es una guía que decidí traducir para que las personas que son mayormente autodidactas o que quieren aprender por su cuenta tengan una mejor idea y estructura sobre cómo aprender estos temas.
+Soy [James Archbold](https://www.linkedin.com/in/james-archbold-6470b6a2/), un desarrollador Colombiano trabajando actualmente en Adoreal. Esta es una guía que decidí traducir para que las personas que son mayormente autodidactas o que quieren aprender por su cuenta tengan una mejor idea y estructura sobre cómo aprender estos temas.
 
 Todos los libros que referencie tienen links a su versión gratuita online o su libro en amazon. Es posible que algunos de estos tengan traducciones oficiales o no oficiales. Más adelante, incluiré links a aquellos libros que tengan traducciones y estén disponibles en línea o en amazon.
 
